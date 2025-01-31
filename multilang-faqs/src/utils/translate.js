@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const translateText = async (text, targetLang) => {
     try {
-        const API_KEY = "AIzaSyC9jVJhBBhS4TqiA0zLP34nv3wpCiCh0ko";
+        const API_KEY = "YOUR_KEY";
 
         if (!API_KEY) throw new Error("Google Translate API Key is missing!");
 
