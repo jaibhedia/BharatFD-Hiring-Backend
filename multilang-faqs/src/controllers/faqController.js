@@ -1,4 +1,4 @@
-const FAQ = require('../models/faqModel'); // Ensure you have a model for FAQs
+const FAQ = require('../models/faqModel'); 
 const translateText = require('../utils/translate');
 
 exports.getFAQs = async (req, res) => {
@@ -16,7 +16,7 @@ exports.createFAQ = async (req, res) => {
         const translations = new Map();
         translations.set('en', question);
 
-        // Translate question and answer to Hindi & Bengali
+        
         const question_hi = await translateText(question, 'hi');
         const question_bn = await translateText(question, 'bn');
         const answer_hi = await translateText(answer, 'hi');

@@ -4,10 +4,9 @@ const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 const faqRoutes = require('./routes/faqRoutes');
 
-// Load .env variables
 dotenv.config();
 
-// Connect to Database
+
 connectDB();
 
 const app = express();
