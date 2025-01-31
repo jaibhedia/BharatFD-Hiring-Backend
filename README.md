@@ -128,7 +128,7 @@ docker build -t multilingual-faqs .
 docker run -p 5000:5000 multilingual-faqs
 ```
 ### **Docker Screenshot Placeholder**
-![Docker Screenshot](screenshots\docker.png)
+![Docker Screenshot](./screenshots/docker.png)
 
 ---
 
@@ -155,13 +155,13 @@ describe('GET /api/faqs', () => {
 
 ## 📌 Screenshots & Proof of Execution
 ### **Input Request Screenshot**
-![Input Request](screenshots\input.png)
+![Input Request](./screenshots/input.png)
 
 ### **Output Response Screenshot**
-![Output Response](screenshots\output.pngg)
+![Output Response](./screenshots/output.pngg)
 
 ### **Docker Running Screenshot**
-![Docker Running](screenshots\docker.pngg)
+![Docker Running](./screenshots/docker.png)
 
 ---
 
