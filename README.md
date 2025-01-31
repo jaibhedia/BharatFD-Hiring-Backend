@@ -147,9 +147,9 @@ describe('GET /api/faqs', () => {
     });
 });
 ```
-<!-- 
+
 ### **Test Results Placeholder**
-![Test Results Screenshot](placeholder-for-test-results.png) -->
+![Test Results Screenshot](./screenshots/screenshots/test.png)
 
 ---
 
