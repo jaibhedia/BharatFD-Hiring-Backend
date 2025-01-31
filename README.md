@@ -42,7 +42,7 @@ The server should now be running at `http://localhost:5000`.
 
 ---
 
-## 📌 API Usage
+##  API Usage
 ### **1. Fetch FAQs**
 #### Request (English - Default)
 ```bash
@@ -97,7 +97,7 @@ curl -X POST http://localhost:5000/api/faqs/ \
 
 ---
 
-## 🛠 Problems Faced & Debugging
+## Problems Faced & Debugging
 
 ### **1. Missing MongoDB URI in .env**
 - Issue: `Error: MongoDB URI is not defined in .env file.`
@@ -117,7 +117,7 @@ curl -X POST http://localhost:5000/api/faqs/ \
 
 ---
 
-## 🐳 Docker Setup
+## Docker Setup
 ### **1. Build the Docker Image**
 ```bash
 docker build -t multilingual-faqs .
@@ -131,7 +131,7 @@ docker run -p 5000:5000 multilingual-faqs
 
 ---
 
-## 🧪 Testing
+## Testing
 Run unit tests using Mocha & Supertest:
 ```bash
 npm test
@@ -152,19 +152,19 @@ describe('GET /api/faqs', () => {
 
 ---
 
-## 📌 Screenshots & Proof of Execution
+## Screenshots & Proof of Execution
 ### **Input Request Screenshot**
 ![Input Request](./screenshots/input.png)
 
 ### **Output Response Screenshot**
-![Output Response](./screenshots/output.pngg)
+![Output Response](./screenshots/output.png)
 
 ### **Docker Running Screenshot**
 ![Docker Running](./screenshots/docker.png)
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 This project successfully implements a **Multilingual FAQ System** using **Node.js & Express.js**, integrating **Google Translate API**, **MongoDB**, and **Docker Support**. The system handles translations dynamically and follows best practices for API development, error handling, and testing.
 
 
