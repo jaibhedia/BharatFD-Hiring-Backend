@@ -1,5 +1,4 @@
-# BharatFD-Hiring-Backend
-# Multilingual FAQ Backend (Node.js & Express)
+# Multilingual FAQ Backend (Node.js & Express) - BharatFD-Hiring-Backend
 
 ## Overview
 This repository contains the backend implementation for a **Multilingual FAQ System** using **Node.js** and **Express.js**. The project allows users to store and retrieve FAQs in multiple languages using **Google Translate API** for automatic translations.
